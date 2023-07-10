@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* | wc -l
+find . -type d -name "*" -not -path . | wc -l
